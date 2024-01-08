@@ -1,0 +1,23 @@
+{
+    "Auth": false,
+    "UserManagement": false,
+    "ZoneManagement": false,
+    "CategoryManagement": false,
+    "PromotionManagement": false,
+    "ServiceManagement": false,
+    "ProviderManagement": false,
+    "PaymentModule": false,
+    "BusinessSettingsModule": false,
+    "BookingModule": false,
+    "SMSModule": false,
+    "TransactionModule": false,
+    "ReviewModule": false,
+    "CartModule": false,
+    "AdminModule": false,
+    "CustomerModule": false,
+    "ServicemanModule": false,
+    "ChattingModule": false,
+    "BidModule": true,
+    "AddonModule": true,
+    "Gateways": true
+}

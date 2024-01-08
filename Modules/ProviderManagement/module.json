@@ -1,0 +1,13 @@
+{
+    "name": "ProviderManagement",
+    "alias": "providermanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ProviderManagement\\Providers\\ProviderManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

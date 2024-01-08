@@ -1,0 +1,13 @@
+{
+    "name": "BidModule",
+    "alias": "bidmodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BidModule\\Providers\\BidModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

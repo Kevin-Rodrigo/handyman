@@ -1,0 +1,13 @@
+{
+    "name": "CategoryManagement",
+    "alias": "categorymanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CategoryManagement\\Providers\\CategoryManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,1336 @@
+/*!
+Script: BookingDo
+Author: Papon IT Solution
+Support: paponapp2244@gmail.com
+Version: 3.4
+*/
+
+:root {
+    --color-white: #fff;
+    --font-family: 'Lexend', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+}
+
+select:focus {
+
+    outline: none;
+}
+
+textarea:focus {
+
+    outline: none;
+}
+
+input:focus {
+
+    outline: none;
+
+}
+
+/* button-top-arrow-up-ltr */
+
+.button-top-arrow-up {
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-arrow-up i {
+    font-size: 25px;
+    color: var(--color-white);
+}
+
+.button-top-arrow-up.show {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+
+/* button-top-arrow-up-rtl */
+.button-top-arrow-up-rtl {
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 25px;
+    left: 50px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-arrow-up-rtl.showw {
+    opacity: 1;
+    visibility: visible;
+}
+
+.button-top-arrow-up-rtl i {
+    font-size: 25px;
+    color: var(--color-white);
+}
+
+p,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-family);
+}
+
+button {
+    font-family: var(--font-family) !important;
+}
+
+a {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-family) !important;
+}
+
+/*-----------------------------Heager-Start-------------------------------------*/
+/* language-dropdown start */
+.drop-menu {
+    top: 10px !important;
+    right: 0px !important;
+}
+
+.drop-menu-rtl {
+    top: 10px !important;
+    left: 0px !important;
+}
+
+.language-drop {
+    padding: 9px;
+    color: var(--color-white) !important;
+    font-family: var(--font-family) !important;
+    font-weight: 400;
+}
+
+.drop-menu-2 li a {
+    font-family: var(--font-family);
+    font-family: 500;
+}
+
+.drop-menu li a {
+    font-family: var(--font-family);
+    font-family: 500;
+}
+
+/* language-dropdown end */
+.header {
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+.bg-color-banner {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.Navbar {
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.togl-btn {
+    display: none;
+}
+
+.logo a {
+    font-size: 30px;
+}
+
+.btn-class {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: #fff !important;
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.main-btn {
+    background-color: var(--secondary-color) !important;
+    border: 1px solid var(--secondary-color) !important;
+}
+
+.main-btn:hover {
+    background-color: var(--secondary-color) !important;
+    border: 1px solid var(--secondary-color) !important;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.btn-class:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.navbar-menu,
+.collapse {
+    flex-grow: 0;
+}
+
+.header-dropdown-menu {
+    font-weight: 600;
+}
+
+.header-btn-login {
+    background-color: var(--secondary-color);
+    font-weight: 500;
+}
+
+/*-----------------------------Heager-End-------------------------------------*/
+/*-----------------------------banner-stsrt-----------------------------------*/
+.banner-text h1 {
+    font-size: 50px;
+    font-family: var(--font-family);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.banner-text p {
+    width: 550px;
+    font-family: var(--font-family);
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.banner-images {
+    width: 100%;
+    height: 700px;
+}
+
+.banner-images {
+    position: relative;
+    animation: test 3s alternate infinite;
+    width: 100%;
+}
+
+@keyframes test {
+    from {
+        bottom: 0px;
+    }
+
+    to {
+        bottom: 30px;
+    }
+}
+
+/* banner End */
+/* project-management start */
+.project-management {
+    position: relative;
+}
+
+.project-management-bg-imag {
+    background-image: url("../images/png/BACKGROUND.html");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30%;
+}
+
+.project-management-text h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px !important;
+}
+
+
+/* project-management End */
+
+.work-title .line-image {
+    position: absolute;
+    left: 0px;
+    bottom: -7px;
+    width: 850px;
+}
+
+.project-management-text p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.project-management-image {
+    width: 100%;
+}
+
+/*-----------------------------bannre-2-End-----------------------------------*/
+/*-----------------------------work-together-start---------------------------*/
+
+.Work-together-title {
+    font-size: 72px;
+}
+
+.Work-together-title-bg-img {
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    width: 70%;
+}
+
+
+/*-----------------------------work-together-End---------------------------------*/
+/*-----------------------------Use-as-Extension-start----------------------------*/
+.use-as-extension {
+    background-color: #F5F6F7;
+    padding: 65px 0px 70px 0px;
+}
+
+.use-extension {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    color: #000;
+}
+
+.use-as-extension-text {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.extension-text h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+}
+
+/* Beautiful UI kit designed to grow your business start */
+.beautiful-ui-kit-bg-color {
+    background-color: #F5F6F7;
+    padding: 60px 0px 60px 0px;
+}
+
+.beautiful-ui-kit-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    margin: auto;
+}
+
+.beautiful-card-body h5 {
+    font-family: var(--font-family);
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    margin: auto;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.beautiful-card-body {
+    padding: 30px;
+}
+
+.beautiful-card {
+    transition: 0.5s ease-in-out;
+
+}
+
+.beautiful-card-body i {
+    background-color: #F0F5FF;
+    transition: 0.5s ease-in-out;
+    width: 74px;
+    height: 60px;
+}
+
+.beautiful-card-body i:hover {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    transform: scale(1.05);
+}
+
+.beautiful-card:hover {
+    transform: scale(1.05);
+}
+
+.card-bg-color-1 {
+    background-color: #C0E0F6;
+}
+
+.card-bg-color-2 {
+    background-color: #C0F3F4;
+}
+
+.card-bg-color-3 {
+    background-color: #ECF8D7;
+}
+
+.card-bg-color-4 {
+    background-color: #FAE8DB;
+}
+
+.card-bg-color-5 {
+    background-color: #FCD3D1;
+}
+
+.card-bg-color-6 {
+    background-color: #D1C6E5;
+}
+
+/* Beautiful UI kit designed to grow your business End */
+
+/*-----------------------------Use-as-Extension-End----------------------------*/
+.customise {
+    padding-top: 110px;
+}
+
+/*-----------------------------choose-plan-card-start-----------------------------*/
+
+.choose-plan {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.choose-your-plan-container {
+    padding-top: 50px;
+}
+
+.choose-card {
+    padding: 50px 0px 70px 0px;
+}
+
+.plan-card-border {
+    border: 1px solid var(--secondary-color);
+    transition: .5s ease-in-out;
+}
+
+.plan-card-body {
+    padding: 20px;
+}
+
+.choose-plan-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.plan-card-frist-titel {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.plan-card-second-titel {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.capture {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.plan-card-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.plan-card-border:hover {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    border-radius: 8px;
+    border: none;
+}
+
+.plan-card-border:hover h5 {
+    color: var(--secondary-color);
+}
+
+.plan-card-border:hover button {
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+    border: none;
+}
+
+.plan-card-border:hover .iconimg i {
+    color: var(--secondary-color);
+}
+
+.plan-card-border:hover {
+    transform: scale(1.02);
+}
+
+.plan-card-border .card-footer {
+    transition: .5s ease-in-out;
+}
+
+.plan-card-border:hover .card-footer {
+    transition: .5s ease-in-out;
+    background-color: var(--primary-color) !important;
+}
+
+/*-----------------------------choose-plan-card-start-----------------------------*/
+/* you-work-everywhere-you-are start */
+.you-work-everywhere-you-are-bg-color {
+    background-color: var(--primary-color);
+    padding: 50px 0px 40px 0px;
+    color: var(--color-white);
+}
+
+.you-work-everywhere-you-are {
+    color: var(--color-white);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.your-data {
+    background-color: var(--color-white);
+    padding: 85px 0px 40px 0px;
+}
+
+.your-data--titel {
+    color: var(--secondary-color) !important;
+}
+
+.your-data-text {
+    color: var(--secondary-color);
+}
+
+/* you-work-everywhere-you-are End */
+/* our-sponsors start */
+.sponsors-title {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/* our-sponsors End */
+/* what-our-clients-says Start */
+
+.what-our-clients-says-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    margin: auto;
+}
+
+.how-works-subtitle {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.clients-card-body-2 {
+    padding: 30px;
+}
+
+.client-slaider-container {
+    padding: 65px 0px 75px 0px;
+}
+
+.client-slaider {
+    width: 75% !important;
+}
+
+.carousel-client-slaider h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    color: #000;
+}
+
+.carousel-client-slaider p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+}
+
+.star-img {
+    width: 30px !important;
+    height: 20px;
+}
+
+.invisible-img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.client-sutext {
+    font-size: 16px !important;
+}
+
+.annette-text {
+    color: var(--primary-color) !important;
+    font-family: var(--font-family);
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.google-ceo {
+    color: var(--secondary-color) !important;
+    font-family: var(--font-family);
+    font-weight: 300 !important;
+    font-size: 15px !important;
+}
+
+.quote-png {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.client-slaider-bg-color {
+    background-color: #F5F6F7;
+}
+
+.client-slai .owl-nav {
+    text-align: center !important;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.client-slai button.owl-prev {
+    margin-right: 20px !important;
+    background-color: var(--color-white) !important;
+    border-radius: 50% !important;
+    font: initial !important;
+    width: 50px;
+    height: 50px;
+    font-size: 30px !important;
+    color: var(--secondary-color) !important;
+}
+
+.client-slai button.owl-next {
+    font: initial !important;
+    background-color: var(--color-white) !important;
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    font-size: 30px !important;
+    color: var(--secondary-color) !important;
+    padding-bottom: 65px !important;
+}
+
+.them-1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.them-card-box:hover img {
+    transform: scale(1.05);
+}
+
+.clients {
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+
+/* what-our-clients-says End */
+/*  Have a project in mind! Let’s work together start */
+.have-project-section-bg-color {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    padding: 80px 0px 80px 0px;
+}
+
+.have-project-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.have-project-subtitle {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*  Have a project in mind! Let’s work together rnd*/
+
+/* footer start */
+.footer-bg-color {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px 10px 0px;
+}
+
+.icon-name {
+    color: var(--primary-color);
+}
+
+.footer-title {
+    color: var(--color-white);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer-btn button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+}
+
+.footer-contain p a {
+    color: var(--color-white) !important;
+    font-family: var(--font-family);
+    font-weight: 200;
+}
+
+.icon-flex {
+    gap: 10px;
+    color: var(--color-white);
+}
+
+.facebook-icon {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.footer-contain {
+    color: var(--color-white) !important;
+    font-family: var(--font-family);
+    font-weight: 200;
+}
+
+.copy-right-text {
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+}
+
+/* footer End */
+/*  Funfact start */
+.fun-fact {
+    background-color: var(--primary-color);
+}
+
+.latest-blog {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    margin: auto;
+}
+
+.blog-lorem-text {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin: auto;
+}
+
+.js-number i {
+    color: var(--color-white);
+}
+
+.num {
+    font-family: var(--font-family);
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.js-text-number {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--color-white);
+}
+
+/*  Funfact End */
+/* blog start */
+
+.blog-card-hover {
+    transition: 0.2s ease-in;
+    object-fit: cover;
+}
+
+.blog-card-hover:hover {
+    transform: scale(1.04);
+}
+
+.card-date {
+    font-size: 12px;
+    color: #B4BBC5;
+}
+
+.blog-card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+/* blog End */
+/* contact start */
+.contact-bg-color {
+    width: 100%;
+    padding: 100px 0px 85px 0px;
+    background-color: var(--font-white);
+}
+
+.contact-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    color: var(--primary-color);
+    line-height: 60px;
+    letter-spacing: -0.015em;
+}
+
+.contact-subtitle {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--primary-color);
+}
+
+.email-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.infogolio-email a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary-color) !important;
+}
+
+.contact-line {
+    width: 40px !important;
+    height: 1px;
+    background-color: var(--secondary-color);
+}
+
+.connect-with-us {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.contact-icon {
+    gap: 10px;
+}
+
+.contact-form-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact-form-subtitle {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.contact-form-label {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contact-input {
+    font-family: var(--font-family);
+    font-size: 13px;
+}
+
+.faq-bg-color {
+    padding: 65px 0px 80px 0px;
+    background-color: #F5F6F7;
+}
+
+.faq-title {
+    padding-bottom: 30px;
+    color: #000;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    margin: auto;
+}
+
+.faq-subtitle {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #000;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.accordion-body {
+    background-color: var(--color-white);
+}
+
+.accordian-active {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    box-shadow: none !important;
+}
+
+/* contact end */
+/* blog-card-btn-read-more start */
+.blog-details-bg-color {
+    background-color: #fff;
+    color: var(--secondary-color);
+}
+
+.blog-details-img {
+    width: 100%;
+}
+
+.recent-blogs-titel {
+    font-size: 56px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: #000;
+}
+
+.details-footer {
+    color: #7d7d7c;
+}
+
+.blog-details-title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: #000;
+}
+
+.btn-secondary {
+    background: #F5F6F7;
+    color: var(--primary-color);
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: .2s all ease-in-out;
+    border: 1px solid #F5F6F7;
+}
+
+/* blog-card-btn-read-more End */
+/* about-us start */
+.about-us-bg-color {
+    background-color: var(--color-white);
+    color: #7d7d7c;
+}
+
+.about-us-title {
+    font-size: 56px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.about-us-subtitle {
+    color: var(--secondary-color);
+}
+
+.about-us-mini-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+}
+
+/* about-us end */
+/* contact-list start */
+
+/* contact-list end */
+
+.connect-with-us-1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.infogolio-email-1 a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--secondary-color) !important;
+}
+
+.email-text-1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+
+/* blog-list-view-all start */
+.pagination-color {
+    color: var(--secondary-color) !important;
+}
+
+.page-link {
+    color: var(--secondary-color) !important;
+}
+
+.pagination {
+    --bs-pagination-active-bg: var(--primary-color) !important;
+    --bs-pagination-active-border-color: var(--primary-color) !important;
+}
+
+/* blog-lisg-viwe-all end */
+
+.view-all-hover {
+    transition: .2s ease-in-out;
+}
+
+.view-all-hover:hover {
+    transform: scale(1.04);
+}
+
+.hotel-titel {
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.title-restaurant h5 {
+    font-size: 30px;
+    font-family: var(--font-family);
+    font-weight: 500;
+
+}
+
+.hotel-card-box {
+    padding: 70px 0px 100px 0px;
+}
+
+.hotel-main-title {
+    text-align: center;
+    margin: auto;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.hotel-main-subtitle {
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.hotel-title {
+    color: #000 !important;
+}
+
+.hotel-subtitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-family);
+}
+
+.hotel-dropdown {
+    max-height: 200px !important;
+    overflow-y: scroll;
+}
+
+.hotel-loction-bar,
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.hotel-label {
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.select-drop {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #989898;
+}
+
+.hotel-loction-bar {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 24px;
+    color: #989898 !important;
+}
+
+.owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+
+}
+
+.accordion-button [type="button"]:not(:disabled) {
+    border: #989898 1px solid !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--secondary-color) !important;
+    background-color: var(--primary-color) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/png/down.png") !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button::after {
+    background-image: url("../images/png/up.png") !important;
+
+}
+
+.text-primary-color {
+    color: var(--secondary-color);
+}
+
+.store-img {
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+}
+
+.view-all-btn a:hover {
+    color: #000 !important;
+}
+
+.owl-stage-outer .owl-stage {
+    display: flex !important;
+}
+
+/* accordion-button rtl css */
+.accordion-button-rtl:focus {
+    box-shadow: none !important;
+
+}
+
+.accordion-button-rtl [type="button"]:not(:disabled) {
+    border: #989898 1px solid !important;
+}
+
+.accordion-button-rtl:not(.collapsed) {
+    color: var(--secondary-color) !important;
+    background-color: var(--primary-color) !important;
+}
+
+.accordion-button-rtl:not(.collapsed)::after {
+    background-image: url("../images/png/down.png") !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button-rtl::after {
+    background-image: url("../images/png/up.png") !important;
+
+}
+
+.accordion-button-rtl {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+
+.accordion-button-rtl::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-right: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.item-1 img {
+    width: 100% !important;
+}
+
+.them-name-images:hover {
+    object-position: bottom;
+}
+
+.them-name-images {
+    width: 100%;
+    transform-origin: 50% 50%;
+    object-fit: cover;
+    object-position: top;
+    height: 400px;
+    transition: 2s all ease-in-out;
+}
+
+.js-cookie-consent {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    z-index: 9999;
+    background-color: #fff;
+    border-color: var(--secondary-color);
+}
+
+.js-cookie-consent-agree {
+    color: #fff !important;
+
+}
+
+.js-cookie-consent-agree:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.max-w-7xl {
+    max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------- new update ---------------------*/
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+

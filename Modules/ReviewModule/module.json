@@ -1,0 +1,13 @@
+{
+    "name": "ReviewModule",
+    "alias": "reviewmodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ReviewModule\\Providers\\ReviewModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

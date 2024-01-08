@@ -1,0 +1,13 @@
+{
+    "name": "ServiceManagement",
+    "alias": "servicemanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ServiceManagement\\Providers\\ServiceManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

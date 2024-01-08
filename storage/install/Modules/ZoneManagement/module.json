@@ -1,0 +1,13 @@
+{
+    "name": "ZoneManagement",
+    "alias": "zonemanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ZoneManagement\\Providers\\ZoneManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

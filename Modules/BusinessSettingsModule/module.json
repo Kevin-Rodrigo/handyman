@@ -1,0 +1,13 @@
+{
+    "name": "BusinessSettingsModule",
+    "alias": "businesssettingsmodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BusinessSettingsModule\\Providers\\BusinessSettingsModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

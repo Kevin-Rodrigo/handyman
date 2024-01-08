@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateUserVerificationsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('user_verifications', function (Blueprint $table) {
+            $table->id();
+            $table->string('identity');
+            $table->string('identity_type');
+            $table->foreignUuid('user_id')->nullable();
+            $table->string('otp');
+            $table->dateTime('expires_at');
+            $table->timestamp('created_at')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('user_verifications');
+    }
+}

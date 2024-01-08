@@ -1,0 +1,144 @@
+@media only screen and (min-width: 1201px) and (max-width: 3840px) {
+
+    .sidebar-md {
+
+        display: none;
+
+    }
+
+    .page-topbar .navbar-header {
+
+        justify-content: flex-end;
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .sidebar-md {
+
+        display: none;
+
+    }
+
+    .page-topbar .navbar-header {
+
+        justify-content: flex-end;
+
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+    .sidebar-lg {
+
+        display: none;
+
+    }
+
+    .main-content {
+
+        margin-left: 0;
+
+    }
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .sidebar-lg {
+
+        display: none;
+
+    }
+
+    .main-content {
+
+        margin-left: 0;
+
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+
+    .sidebar-lg {
+
+        display: none;
+
+    }
+
+    .main-content {
+
+        margin-left: 0;
+
+    }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 374px) {
+
+    .sidebar-lg {
+
+        display: none;
+
+    }
+
+    .main-content {
+
+        margin-left: 0;
+
+    }
+
+}
+
+
+
+/* New login form  start */
+
+@media (max-width:576px) {
+
+    .paln-img {
+
+        display: none;
+
+    }
+
+    .card-box {
+
+        margin-top: 15px;
+
+        margin-bottom: 15px;
+
+    }
+
+
+    .theme-label {
+        padding: 2px 20px;
+        right: -50px;
+    }
+
+    .bg-new {
+        background: conic-gradient(from 45deg, var(--bs-secondary), var(--bs-primary));
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .main-content-rtl {
+        margin-right: 0rem !important;
+    }
+
+}
+
+
+
+
+@media (max-width:425px) {
+    .admin-menu li a {
+        font-size: 12px;
+    }
+}

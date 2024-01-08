@@ -1,0 +1,1133 @@
+@media (max-width: 1200px) {
+
+
+
+  /* --------------------------------------- */
+
+  .content {
+    font-size: 50px;
+  }
+
+
+
+  /*===== extra dev =====*/
+  .language-button-icon {
+    display: block !important;
+  }
+
+}
+
+
+@media (min-width:1024px) and (max-width: 1440px) {
+  .theme-4-home-banner h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .offset-lg-rtl {
+    margin-right: 8.33333333%;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .img {
+    display: none;
+  }
+
+  .bg-content {
+    background-color: #54a15d1a;
+    height: 400px;
+    align-items: center;
+  }
+
+  .content-width {
+    width: 100%;
+  }
+
+  .service-content {
+    display: block;
+  }
+
+  .feature-carousel .footer-text {
+    font-size: 13px;
+  }
+
+  .service-detail-multi .service-image img {
+    height: 355px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .mobile-menu-footer {
+    display: block;
+  }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+
+
+  /* service detail */
+  .service-detail .small-container {
+    width: 197px;
+  }
+
+  .service-detail .service-content {
+    height: 98px;
+  }
+
+  .service-detail .service-image img {
+    height: 190px;
+  }
+
+  .service-detail .price {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 576px) {}
+
+@media(min-width:300px) and (max-width:576px) {
+
+  .search-btn .btn {
+    top: 8px;
+  }
+
+  /* service detail */
+  .service-detail .small-container {
+    width: 262px;
+  }
+
+  .service-detail .price {
+    font-size: 18px;
+  }
+
+  .card:hover .overlay-content {
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+    transition: all 0.7s ease-in-out;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .app_section h2 {
+    font-size: 34px;
+  }
+
+  .app_section .app_image {
+    width: 240px !important;
+  }
+
+}
+
+@media(min-width:200px) and (max-width: 576px) {
+  .bg-image .login_form {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .grad2,
+  .grad3 {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-block {
+    display: block;
+  }
+
+  .content {
+    font-size: 30px;
+  }
+
+  .input-margin {
+    margin-top: 15px;
+  }
+
+  /* toggle button csss */
+  .toggle-button-rtl {
+    left: 5%;
+  }
+
+  .toggle-button {
+    right: 5%;
+  }
+
+  .app_section p {
+    font-size: 12px;
+  }
+
+  /* toggle button csss */
+  .tab-section .nav-pills {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .tac .col-md-4 {
+    margin-bottom: 20px !important;
+  }
+
+  .product-service .col-md-6 {
+    margin-bottom: 20px !important;
+  }
+
+  .search-btn .btn {
+    font-size: 14px !important;
+  }
+
+  /* ------------------------------------ */
+
+  /* theme-2-banner-section */
+
+
+  .app_section .app_image {
+    width: 200px !important;
+  }
+
+  /* service detail single */
+  .appoinment .btn-text {
+    font-size: 13px;
+  }
+
+  /*----------- extra css dev -----------*/
+  .sm-py-2 {
+    padding: 5px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .app_section .download_logo {
+    width: 70px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .categoryslider h5 {
+    font-size: 16px !important;
+  }
+
+  .categoryslider a {
+    font-size: 12px;
+  }
+
+  /* .text-font {
+    font-size: 20px !important;
+  } */
+
+  .sliderbtn {
+    font-size: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+  }
+
+  .app_section h2 {
+    font-size: 25px;
+  }
+
+  .app_section .app_image {
+    width: 140px !important;
+  }
+
+  .service-div h5 {
+    font-size: 16px !important;
+  }
+
+  .servicelist .card-img-top,
+  .service-div .card-img-top {
+    height: 200px;
+  }
+
+  .service-card .button {
+    font-size: 9px;
+    height: 21px;
+  }
+
+  .service-card .booknow {
+    font-size: 12px;
+    height: 32px;
+  }
+
+  .service-card .heart-icon {
+    width: 19px;
+    height: 19px;
+    padding-top: 1px;
+    /* padding-left: 3px; */
+    font-size: 13px;
+  }
+
+  .text-margin {
+    margin-left: 30px;
+  }
+
+  .feature-div a {
+    font-size: 12px;
+  }
+
+  .testimonial-div .a {
+    font-size: 12px;
+  }
+
+  .footer-section .footer-text {
+    font-size: 13px;
+  }
+
+  .footer-section .footer-icon {
+    width: 110px;
+    height: 38px;
+  }
+
+  .footer-section p {
+    font-size: 13px;
+  }
+
+  .footer-section .footer-line {
+    text-align: start;
+  }
+
+}
+
+@media(max-width: 375px) {
+
+  .refer-img {
+    width: 240px;
+  }
+
+  .p-img {
+    width: 150px !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
+
+@media (max-width:320px) {}
+
+@media (max-width:767px) {
+  .responsive-col {
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .category-slide .card-img-top {
+    height: 60px;
+  }
+
+  .service-image {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .service-list {
+    padding: 0 !important;
+  }
+
+  .back-top {
+    bottom: 90px !important;
+  }
+
+}
+
+
+
+/****************************************************************************
+                            New Design 16/06/2023 
+  *****************************************************************************/
+
+@media (max-width: 2000px) {
+  .mt-lg-8 {
+    margin-top: 8rem !important;
+  }
+
+  .pt-xl-8 {
+    padding-top: 8rem !important;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 2000px) {
+  .py-lg-6 {
+    padding-top: 6rem !important;
+    padding-bottom: 9rem !important;
+  }
+}
+
+@media (max-device-width: 1600px) {
+  /* .home-banner .banner-content {
+    padding-left: 120px;
+  } */
+}
+
+
+@media (max-device-width: 1600px) {
+
+
+  /*============= theme-3 =============*/
+  .home-banner-3 .banner-content h1 {
+    font-size: 42px;
+    transition: 0.5s ease;
+  }
+
+  /*============= theme-3 =============*/
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 80px;
+  } */
+
+  /*============= servicelist section =============*/
+  .servicelist .card-img-top,
+  .service-div .card-img-top {
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .testimonial h2,
+  .why-choose h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  .mt-lg-8 {
+    margin-top: 8rem !important;
+  }
+
+  /*============== gallery section ==============*/
+
+  /*================= contact us =================*/
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  /*=================== blog ===================*/
+  .blog-section .blog-details-img {
+    height: 400px;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 50px;
+  } */
+
+  /*============= theme-2 =============*/
+
+  /*============= theme-3 =============*/
+  .img-3 {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .app-title {
+    font-size: 22px !important;
+  }
+
+  /*============= theme-3 =============*/
+
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .navbar-nav .nav-item .active::before {
+    display: none;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 12px 0px !important;
+  }
+
+  /*============= servicelist section =============*/
+  .servicelist .card-img-top,
+  .service-div .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  /*============== gallery section ==============*/
+
+  .testimonial h2,
+  .why-choose h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  /*================= contact us =================*/
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  /*=================== blog ===================*/
+  .blog-section .blog-details-img {
+    height: 350px;
+  }
+
+  /*---------- why-choose ----------*/
+  .why-choose .choose-content {
+    margin-top: 70px;
+  }
+
+  /*-------- service detail --------*/
+  .service-detail .service-title {
+    font-size: 36px;
+  }
+
+  .banner-section-2 .carousel-item img {
+    height: 400px;
+  }
+
+  /*----- order success -----*/
+  .order-title {
+    font-size: 32px;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 12px;
+  } */
+
+  .section-search {
+    max-width: none;
+    text-align: center;
+    margin: 60px 0;
+  }
+
+  .home-banner .banner-content h1,
+  .home-banner .banner-content-rtl h1 {
+    font-size: 54px;
+  }
+
+  /*============= theme-2 =============*/
+
+  /*============= theme-5 =============*/
+  .theme-5 .home-subtitle {
+    line-height: 70px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 60px;
+  }
+
+  /*============= theme-5 =============*/
+
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 576px) {
+  .py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .navbar-nav .nav-item .active::before {
+    display: none;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 12px 0px !important;
+  }
+
+  /*================= home banner =================*/
+  .home-banner {
+    height: 600px;
+  }
+
+  .home-banner form .form-control-lg {
+    padding: 14px;
+  }
+
+  /*================= category section =================*/
+  .category-slide .card-img-top {
+    height: 60px;
+  }
+
+  /*============== gallery section ==============*/
+
+  .testimonial h2,
+  .why-choose h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  /*================= contact us =================*/
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  /*=================== blog ===================*/
+  .blog-section .blog-details-img {
+    height: 300px;
+  }
+
+  /*---------- my booking ----------*/
+  .nav-responsive {
+    overflow-x: scroll;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  /*---------- why-choose ----------*/
+  .why-choose .choose-content {
+    margin-top: 30px;
+  }
+
+  /*-------- service detail --------*/
+  .service-detail .service-title {
+    font-size: 26px;
+  }
+
+  .bs-stepper-header .line {
+    border: 1px solid var(--bs-gray-200);
+    margin-bottom: 0px;
+  }
+
+  .wizzard .nav .nav-item .nav-link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .banner-section-2 .carousel-item img {
+    height: 400px;
+  }
+
+  /*----- order success -----*/
+  .order-title {
+    font-size: 25px;
+  }
+
+  .btn-gc .btn-submit {
+    width: 100%;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 12px;
+  } */
+
+  /* .banner-content-rtl {
+    padding-right: 12px;
+  } */
+
+  .section-search {
+    max-width: none;
+    text-align: center;
+    margin: 60px 0;
+  }
+
+  /*============= theme-2 =============*/
+}
+
+@media (max-width:425px) {
+  .cat3 h5 {
+    font-size: 15px;
+  }
+
+  .listing-view .my-cart-categories img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .test-img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .btn-primary-rgb {
+    padding: 2px 6px;
+  }
+
+  .my-cart-categories img {
+    width: 95px;
+    height: 95px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .home-banner {
+    height: 500px !important;
+  }
+
+  .theme-1-home {
+    padding: 0px !important;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 12px;
+  } */
+
+  /* .banner-content-rtl {
+    padding-right: 12px;
+  } */
+
+  .section-search {
+    max-width: none;
+    text-align: center;
+    margin: 60px 0;
+  }
+
+  .display {
+    display: block !important;
+  }
+
+  .home-banner .banner-content h1,
+  .home-banner .banner-content-rtl h1 {
+    font-size: 34px;
+  }
+
+  /*============= theme-2 =============*/
+
+  /*============= theme-3 =============*/
+
+  .quote-icon:before {
+    top: -54%;
+    right: -50%;
+    opacity: 0.2;
+  }
+
+  .quote-icon:after {
+    top: -54%;
+    right: -55%;
+    z-index: 1;
+  }
+
+  .home-banner-3 .banner-content h1 {
+    font-size: 36px;
+  }
+
+  /*============= theme-3 =============*/
+
+  /*============= theme-4 =============*/
+  .top-category .top-cate .card h5 {
+    font-size: 18px;
+  }
+
+  /*============= theme-4 =============*/
+
+  .top-bar marquee span {
+    padding: 0px 20px;
+  }
+
+  .pro-price {
+    font-size: 22px;
+  }
+
+
+}
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px) {
+
+  .py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .navbar-nav .nav-item .active::before {
+    display: none;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 12px 0px !important;
+  }
+
+  /*================= home banner =================*/
+
+  .home-banner form .form-control-lg {
+    padding: 14px;
+  }
+
+  /*============== gallery section ==============*/
+
+  .testimonial h2,
+  .why-choose h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  /*================= contact us =================*/
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  /*=================== blog ===================*/
+  .blog-section .blog-details-img {
+    height: 250px;
+  }
+
+  /*---------- my booking ----------*/
+  .nav-responsive {
+    overflow-x: scroll;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  /*---------- why-choose ----------*/
+  .why-choose .choose-content {
+    margin-top: 30px;
+  }
+
+  /*-------- service detail --------*/
+  .service-detail .service-title {
+    font-size: 24px;
+  }
+
+  .bs-stepper-header .line {
+    border: 1px solid var(--bs-gray-200);
+    margin-bottom: 0px;
+  }
+
+  .wizzard .nav .nav-item .nav-link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /*---------- subscription popup ----------*/
+  .subscription .subscribe-title {
+    font-size: 32px;
+  }
+
+  .subscription p {
+    font-size: 14px;
+  }
+
+  .banner-section-2 .carousel-item img {
+    height: 400px;
+  }
+
+  /*----- order success -----*/
+  .order-title {
+    font-size: 25px;
+  }
+
+  .order-btn,
+  .shop-btn {
+    width: 100%;
+  }
+
+  .btn-gc .btn-submit {
+    width: 100%;
+  }
+
+  .subscription-popup .subscribe-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 12px;
+  } */
+
+  .section-search {
+    max-width: none;
+    text-align: center;
+    margin: 80px 0;
+  }
+
+  .display {
+    display: block !important;
+  }
+
+  /*============= theme-2 =============*/
+
+  /*============= theme-5 =============*/
+  .theme-5 .home-subtitle {
+    line-height: 42px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 42px;
+  }
+
+  /*============= theme-5 =============*/
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 375px) {
+  .py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .navbar-nav .nav-item .active::before {
+    display: none;
+  }
+
+  /*================= home banner =================*/
+  .navbar-nav .nav-item .nav-link {
+    padding: 12px 0px !important;
+  }
+
+  .home-banner {
+    height: 600px !important;
+  }
+
+  .home-banner form .form-control-lg {
+    /* padding: 14px; */
+  }
+
+
+  /*============== gallery section ==============*/
+
+  .testimonial h2,
+  .why-choose h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  /*================= contact us =================*/
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /*=================== blog ===================*/
+  .blog-section .blog-details-img {
+    height: 200px;
+  }
+
+  /*---------- my booking ----------*/
+  .nav-responsive {
+    overflow-x: scroll;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  /*---------- why-choose ----------*/
+  .why-choose .choose-content {
+    margin-top: 30px;
+  }
+
+  /*-------- service detail --------*/
+  .service-detail .service-title {
+    font-size: 20px;
+  }
+
+  .bs-stepper-header .line {
+    border: 1px solid var(--bs-gray-200);
+    margin-bottom: 0px;
+  }
+
+  .wizzard .nav .nav-item .nav-link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .top-bar p {
+    font-size: 14px;
+  }
+
+  /*---------- subscription popup ----------*/
+  .subscription .subscribe-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .subscription p {
+    font-size: 14px;
+  }
+
+  .banner-section-2 .carousel-item img {
+    height: 400px;
+  }
+
+  /*----- order success -----*/
+  .order-title {
+    font-size: 25px;
+  }
+
+  .order-btn,
+  .shop-btn {
+    width: 100%;
+  }
+
+  .btn-gc .btn-submit {
+    width: 100%;
+  }
+
+  .subscription-popup .subscribe-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .h-50px {
+    height: 35px !important;
+  }
+
+  .my-cart-categories img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 12px;
+  } */
+
+  .section-search {
+    max-width: none;
+    text-align: center;
+    margin: 80px 0;
+  }
+
+  .display {
+    display: block !important;
+  }
+
+  /*============= theme-2 =============*/
+
+  /*============= theme-5 =============*/
+  .theme-5 .home-subtitle {
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  /*============= theme-5 =============*/
+  .theme-4-search-input {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 320px) {
+  .py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .navbar-nav .nav-item .active::before {
+    display: none;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 12px 0px !important;
+  }
+
+  /*================= home banner =================*/
+
+  .home-banner {
+    height: 600px;
+  }
+
+  /*============== gallery section ==============*/
+
+  .testimonial h2,
+  .why-choose h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  /*================= contact us =================*/
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /*=================== blog ===================*/
+  .blog-section .blog-details-img {
+    height: 150px;
+  }
+
+  /*---------- my booking ----------*/
+  .nav-responsive {
+    overflow-x: scroll;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  /*---------- why-choose ----------*/
+  .why-choose .choose-content {
+    margin-top: 20px;
+  }
+
+  /*-------- service detail --------*/
+  .service-detail .service-title {
+    font-size: 18px;
+  }
+
+  .bs-stepper-header .line {
+    border: 1px solid var(--bs-gray-200);
+    margin-bottom: 0px;
+  }
+
+  .wizzard .nav .nav-item .nav-link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .top-bar p {
+    font-size: 14px;
+  }
+
+  /*---------- subscription popup ----------*/
+  .subscription .subscribe-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .subscription p {
+    font-size: 12px;
+  }
+
+  .subscription span {
+    font-size: 10px;
+  }
+
+  .banner-section-2 .carousel-item img {
+    height: 400px;
+  }
+
+  /*----- order success -----*/
+  .order-title {
+    font-size: 25px;
+  }
+
+  .order-btn,
+  .shop-btn {
+    width: 100%;
+  }
+
+  .btn-gc .btn-submit {
+    width: 100%;
+  }
+
+  .subscription-popup .subscribe-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .h-50px {
+    height: 15px !important;
+  }
+
+  /*============= theme-2 =============*/
+  /* .home-banner .banner-content {
+    padding-left: 12px;
+  } */
+
+  .section-search {
+    max-width: none;
+    text-align: center;
+    margin: 60px 0;
+  }
+
+  .display {
+    display: block !important;
+  }
+
+  /*============= theme-2 =============*/
+
+  /*============= theme-5 =============*/
+  .theme-5 .home-subtitle {
+    line-height: 33px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+}

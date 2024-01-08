@@ -1,0 +1,13 @@
+{
+    "name": "BookingModule",
+    "alias": "bookingmodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BookingModule\\Providers\\BookingModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

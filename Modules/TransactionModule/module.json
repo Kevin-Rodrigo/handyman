@@ -1,0 +1,13 @@
+{
+    "name": "TransactionModule",
+    "alias": "transactionmodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TransactionModule\\Providers\\TransactionModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
